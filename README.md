@@ -13,7 +13,9 @@ The calibration is followed by 2 steps.:
 
 # Detection
 It uses the calibration result and the marker information to detect the exact center location and rotation. In this program the default setting of marker type is **aruco.DICT_4X4_50**.
-<img width="400" height="400" alt="aruco_marker_0" src="https://github.com/user-attachments/assets/9a6379bd-b10c-455e-9177-dabeb21b0a5c" />
+
+<img width="200" height="200" alt="aruco_marker_0" src="https://github.com/user-attachments/assets/9a6379bd-b10c-455e-9177-dabeb21b0a5c" />
+
 There are 4*4 grid of squares including a padding of one square along the edge.
 
 In the aruco_filter_dynamic.py file, it uses 3 markers and each has a width * height size of 5cm * 5cm.

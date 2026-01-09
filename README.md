@@ -31,6 +31,7 @@ Additional functions
 In the main.py file, you can choose the type of ArucoFilter as dynamic or base.
 1. aruco_filter_base.py : It detects 3 markers as base positions in the coordinate system of ArUco marker.
 2. aruco_filter_dynamic.py : It detect 1 marker that move its position over time and detect the offset position of the reference marker.
+
 The main class which is Cameo has two managers:
 1. WindowManager : it manages the cv windows and controls the keyboard callback function.
 2. CaptureManager : it manages the `cv.VideoCapture` object and uses WindowManager to show the frame that has been captured.

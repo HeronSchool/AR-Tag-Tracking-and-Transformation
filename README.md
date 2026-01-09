@@ -18,7 +18,7 @@ It uses the calibration result and the marker information to detect the exact ce
 
 There are 4*4 grid of squares including a padding of one square along the edge.
 
-In the aruco_filter_dynamic.py file, it uses 3 markers and each has a width * height size of 5cm * 5cm.
+In the aruco_filter_dynamic.py file, it uses 3 markers that have a width * height size of 5cm * 5cm.
 The functions for detection is as follows:
 - **aruco.ArucoDetector**: it uses a marker type and other default parameters to be initialized.
 - **ArucoDetector.detectMarkers** : it uses grayscale image to find the location of 4 corners for each marker and returns its ID as well.
